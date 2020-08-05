@@ -76,4 +76,11 @@
         ],
         "description": "set host with height and width"
     },
+    "flex": {
+        "prefix": "flex",
+        "body": [
+            "  display: flex;"
+        ],
+        "description": "flex"
+    },
 }
