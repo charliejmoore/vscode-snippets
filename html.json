@@ -51,4 +51,11 @@
         ],
         "description": "Angular *ngFor",
     },
+    "div": {
+        "prefix": "div",
+        "body": [
+            "<div class=\"$1\">$2</div>"
+        ],
+        "description": "div"
+    }
 }
