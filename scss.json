@@ -84,4 +84,11 @@
         ],
         "description": "flex"
     },
+    "background-color": {
+        "prefix": "back",
+        "body": [
+            "background-color: $0;"
+        ],
+        "description": "background-color"
+    },
 }
