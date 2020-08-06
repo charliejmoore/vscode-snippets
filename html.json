@@ -42,6 +42,18 @@
         ],
         "description": "Angular ngClass",
     },
+    "class": {
+        "prefix": [
+            "cla",
+            "class",
+            "cl",
+            "clas"
+        ],
+        "body": [
+            "class=\"$0\""
+        ],
+        "description": "make a class",
+    },
     "ngfor": {
         "prefix": [
             "ngFor",
@@ -57,5 +69,16 @@
             "<div class=\"$1\">$2</div>"
         ],
         "description": "div"
-    }
+    },
+    "onClick": {
+        "prefix": [
+            "(cli",
+            "click",
+            "(clic"
+        ],
+        "body": [
+            "(click)=\"$0\""
+        ],
+        "description": "add onClick",
+    },
 }
