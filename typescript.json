@@ -40,4 +40,15 @@
         ],
         "description": "gen random int"
     },
+    "console.log()": {
+        "prefix": [
+            "con",
+            "cons",
+            "log"
+        ],
+        "body": [
+            "console.log($0)",
+        ],
+        "description": "console.log()"
+    },
 }
