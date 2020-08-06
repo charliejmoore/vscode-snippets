@@ -34,7 +34,7 @@
     "get random element from array": {
         "prefix": "randomArray",
         "body": [
-            "getRandomElement(array: any[]) {",
+            "getRandomElement(array: any[]): any {",
             "  return array[Math.floor(Math.random() * array.length)];",
             "}"
         ],

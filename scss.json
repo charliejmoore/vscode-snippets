@@ -53,16 +53,17 @@
     "set height and width": {
         "prefix": "hw",
         "body": [
-            "  height: 100%;",
-            "  width: 100%;"
+            "height: 100%;",
+            "width: 100%;"
         ],
         "description": "set height and width"
     },
     "center flex": {
         "prefix": "center",
         "body": [
-            "  align-items: center;",
-            "  justify-content: center;"
+            "display: flex;",
+            "align-items: center;",
+            "justify-content: center;"
         ],
         "description": "center flex"
     },
@@ -79,7 +80,7 @@
     "flex": {
         "prefix": "flex",
         "body": [
-            "  display: flex;"
+            "display: flex;"
         ],
         "description": "flex"
     },
