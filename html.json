@@ -38,7 +38,7 @@
             "ngClass"
         ],
         "body": [
-            "[ngClass]=\"{${1:cssClass}: ${2:expression}}\""
+            "[ngClass]=\"${1:expression} ? '${2:cssClass1}' : '${3:cssClass2}'\""
         ],
         "description": "Angular ngClass",
     },
