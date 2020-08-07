@@ -106,7 +106,7 @@
         "description": "margin-left"
     },
     "margin-top": {
-        "prefix": "mp",
+        "prefix": "mt",
         "body": [
             "margin-top: $0;"
         ],
