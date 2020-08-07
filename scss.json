@@ -91,4 +91,32 @@
         ],
         "description": "background-color"
     },
+    "margin-right": {
+        "prefix": "mr",
+        "body": [
+            "margin-right: $0;"
+        ],
+        "description": "margin-right"
+    },
+    "margin-left": {
+        "prefix": "ml",
+        "body": [
+            "margin-left: $0;"
+        ],
+        "description": "margin-left"
+    },
+    "margin-top": {
+        "prefix": "mp",
+        "body": [
+            "margin-top: $0;"
+        ],
+        "description": "margin-top"
+    },
+    "margin-bottom": {
+        "prefix": "mb",
+        "body": [
+            "margin-bottom: $0;"
+        ],
+        "description": "margin-bottom"
+    },
 }
