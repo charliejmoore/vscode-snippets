@@ -40,6 +40,16 @@
         ],
         "description": "gen random int"
     },
+    "removeFromArray": {
+        "prefix": "remove, rem",
+        "body": [
+            "/** removes element from array if it exists */",
+            "removeElementFromArray(array: any[], element: any) {",
+            "  return array.filter(el => el !== element);",
+            "}"
+        ],
+        "description": "removeFromArray"
+    },
     "console.log()": {
         "prefix": [
             "console",
