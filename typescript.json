@@ -69,15 +69,15 @@
     "Template for send and get observable subject": {
     "prefix": "mkobservable",
     "body": [
-        "  newSubject: Subject<any> = new Subject<any>();",
+        "newSubject: Subject<any> = new Subject<any>();",
         "",
-        "  sendSubject(props): void {",
-        "    this.newSubject.next(props);",
-        "   }",
+        "sendSubject(props): void {",
+        "  this.newSubject.next(props);",
+        "}",
         "",
-        "  public getSubject(): Observable<any> {",
-        "    return this.newSubject.asObservable();",
-        "  }"
+        "public getSubject(): Observable<any> {",
+        "  return this.newSubject.asObservable();",
+        "}"
     ],
     "description": "Template for send and get observable subject"
     },
