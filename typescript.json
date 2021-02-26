@@ -78,7 +78,38 @@
         "public getSubject(): Observable<any> {",
         "  return this.newSubject.asObservable();",
         "}"
-    ],
-    "description": "Template for send and get observable subject"
+        ],
+        "description": "Template for send and get observable subject"
     },
+    "get params from url in window url bar": {
+        "prefix": "getUrlParams",
+        "body": [
+            "/** Parse authorization token from URL */",
+            "  getUrlParams() {",
+            "    const hash = window.location.hash.substring(1);",
+            "    var params = {};",
+            "    hash.split('&').map(hk => {",
+            "      let temp = hk.split('=');",
+            "      params[temp[0]] = temp[1] ;",
+            "    });",
+            "    console.log(params);",
+            "    return params;",
+            "  }"
+        ],
+        "description": "get params from url in window url bar"
+    },
+    "save data to file": {
+    "prefix": "saveData",
+    "body": [
+        "import fs from 'fs';",
+        "function saveToFile(data, path) {",
+        "  try {",
+        "    fs.writeFileSync(path, JSON.stringify(JSON.parse(data), null, 4));",
+        "  } catch (err) {",
+        "    console.error(err);",
+        "  }",
+        "}"
+    ],
+    "description": "save data to file"
+    }
 }
