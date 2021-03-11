@@ -147,4 +147,18 @@
         ],
         "description": "flex direction shorthand"
     },
+    "flex justify content shorthand": {
+        "prefix": "jc",
+        "body": [
+            "justify-content: $0;"
+        ],
+        "description": "flex justify content shorthand"
+    },
+    "flex align items shorthand": {
+        "prefix": "ai",
+        "body": [
+            "align-items: $0;"
+        ],
+        "description": "flex align items shorthand"
+    },
 }
