@@ -87,5 +87,13 @@
 			"## Learned"
 		],
 		"description": "make day template"
+	},
+	"make reference section": {
+		"prefix": "mkref",
+		"body": [
+		  "## References",
+		  "- [1] []()"
+		],
+		"description": "make reference section"
 	}
 }
