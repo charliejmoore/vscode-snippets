@@ -95,5 +95,12 @@
 		  "- [1] []()"
 		],
 		"description": "make reference section"
+	},
+	"make footnote": {
+		"prefix": "mkfoot",
+		"body": [
+		  "<sup>[](#)</sup>"
+		],
+		"description": "make footnote"
 	}
 }
