@@ -37,16 +37,9 @@
         "description": "make row"
     },
     "make column": {
-        "prefix": ".col",
+        "prefix": "col",
         "body": [
-            ".col {",
-            "  height: 100%;",
-            "  width: 100%;",
-            "  display: flex;",
-            "  flex-direction: column;",
-            "  align-items: center;",
-            "  justify-content: center;",
-            "}"
+            "flex-direction: column;"
         ],
         "description": "make column"
     },
@@ -61,7 +54,6 @@
     "center flex": {
         "prefix": "center",
         "body": [
-            "display: flex;",
             "align-items: center;",
             "justify-content: center;"
         ],
@@ -160,5 +152,5 @@
             "align-items: $0;"
         ],
         "description": "flex align items shorthand"
-    },
+    }
 }

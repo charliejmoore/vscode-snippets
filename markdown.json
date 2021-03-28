@@ -99,7 +99,7 @@
 	"make footnote": {
 		"prefix": "mkfoot",
 		"body": [
-		  "<sup>[](#)</sup>"
+		  "<sup>[](#references)</sup>"
 		],
 		"description": "make footnote"
 	}
