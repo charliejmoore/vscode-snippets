@@ -1,48 +1,4 @@
 {
-    // Place your snippets for scss here. Each snippet is defined under a snippet name and has a prefix, body and
-    // description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
-    // $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the
-    // same ids are connected.
-    // Example:
-    // "Print to console": {
-    // 	"prefix": "log",
-    // 	"body": [
-    // 		"console.log('$1');",
-    // 		"$2"
-    // 	],
-    // 	"description": "Log output to console"
-    // }
-    "make container": {
-        "prefix": ".container",
-        "body": [
-            ".container {",
-            "  height: 100%;",
-            "  width: 100%;",
-            "}"
-        ],
-        "description": "make container"
-    },
-    "make row": {
-        "prefix": ".row",
-        "body": [
-            ".row {",
-            "  height: 100%;",
-            "  width: 100%;",
-            "  display: flex;",
-            "  flex-direction: row;",
-            "  align-items: center;",
-            "  justify-content: center;",
-            "}"
-        ],
-        "description": "make row"
-    },
-    "make column": {
-        "prefix": "col",
-        "body": [
-            "flex-direction: column;"
-        ],
-        "description": "make column"
-    },
     "set height and width": {
         "prefix": "hw",
         "body": [
@@ -50,14 +6,6 @@
             "width: 100%;"
         ],
         "description": "set height and width"
-    },
-    "center flex": {
-        "prefix": "center",
-        "body": [
-            "align-items: center;",
-            "justify-content: center;"
-        ],
-        "description": "center flex"
     },
     "host": {
         "prefix": ":host",
@@ -122,15 +70,6 @@
             "}"
         ],
         "description": "default set up for style.scss"
-    },
-    "set up flex column": {
-        "prefix": "fcol",
-        "body": [
-            "height: 100%;",
-            "display: flex;",
-            "flex-direction: column;"
-        ],
-        "description": "set up flex column"
     },
     "flex direction shorthand": {
         "prefix": "fd",
