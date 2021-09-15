@@ -1,106 +1,106 @@
 {
-	"Make week template": {
-		"prefix": "mkweek",
-		"body": [
-			"",
-			"## Monday",
-			"",
-			"## Tuesday",
-			"",
-			"## Wednesday",
-			"",
-			"## Thursday",
-			"",
-			"## Friday",
-			"",
-			"## Saturday",
-			"",
-			"## Sunday",
-			"",
-			"## What got done towards bigger goals?",
-			"",
-			"## What didn't get done that should have?",
-			"",
-			"## What's creating the biggest bottleneck?",
-			"",
-			"## What are the top 5 priorities for next week?",
-			"",
-			""
-		],
-		"description": "Make week template"
-	},
-	"Make new month template": {
-		"prefix": "mkmonth",
-		"body": [
-			"## Weeks",
-			"",
-			"## Top 5 Priorities ",
-			"",
-			"## Todo This Month",
-			"## Monthly Review",
-			"",
-			"### Completed Goals + Tasks",
-			"",
-			"### What got done towards bigger goals?",
-			"",
-			"### What Didn't Get Done That Should Have?",
-			"",
-			"### What Are The Top 5 Priorities For Next Month?"
-		],
-		"description": "Make new month template"
-	},
-	"make quarter template": {
-		"prefix": "mkquarter",
-		"body": [
-			"",
-			"## Months",
-			"- [[]]",
-			"- [[]]",
-			"- [[]]",
-			"",
-			"## Top 5 priorities",
-			"#### Tasks Each Quarter",
-			"",
-			"## Quarter Review",
-			"",
-			"### Completed Goals + Tasks",
-			"",
-			"### What got done towards the bigger goals?",
-			"",
-			"### What didn't get done that should have?",
-			"",
-			"### What's creating the biggest bottleneck?",
-			"",
-			"### What are the top 5 priorities for next quarter?"
-		],
-		"description": "make quarter template"
-	},
-	"make day template": {
-		"prefix": "mkday",
-		"body": [
-			"## Done",
-			"",
-			"## Todo/Schedule",
-			"",
-			"## Notes",
-			"",
-			"## Learned"
-		],
-		"description": "make day template"
-	},
-	"make reference section": {
-		"prefix": "mkref",
-		"body": [
-		  "## References",
-		  "- [1] []()"
-		],
-		"description": "make reference section"
-	},
-	"make footnote": {
-		"prefix": "mkfoot",
-		"body": [
-		  "<sup>[](#references)</sup>"
-		],
-		"description": "make footnote"
-	}
+  "Make week template": {
+    "prefix": "mkweek",
+    "body": [
+      "",
+      "## Monday",
+      "",
+      "## Tuesday",
+      "",
+      "## Wednesday",
+      "",
+      "## Thursday",
+      "",
+      "## Friday",
+      "",
+      "## Saturday",
+      "",
+      "## Sunday",
+      "",
+      "## What got done towards bigger goals?",
+      "",
+      "## What didn't get done that should have?",
+      "",
+      "## What's creating the biggest bottleneck?",
+      "",
+      "## What are the top 5 priorities for next week?",
+      "",
+      ""
+    ],
+    "description": "Make week template"
+  },
+  "Make new month template": {
+    "prefix": "mkmonth",
+    "body": [
+      "## Weeks",
+      "",
+      "## Top 5 Priorities ",
+      "",
+      "## Todo This Month",
+      "## Monthly Review",
+      "",
+      "### Completed Goals + Tasks",
+      "",
+      "### What got done towards bigger goals?",
+      "",
+      "### What Didn't Get Done That Should Have?",
+      "",
+      "### What Are The Top 5 Priorities For Next Month?"
+    ],
+    "description": "Make new month template"
+  },
+  "make quarter template": {
+    "prefix": "mkquarter",
+    "body": [
+      "",
+      "## Months",
+      "- [[]]",
+      "- [[]]",
+      "- [[]]",
+      "",
+      "## Top 5 priorities",
+      "#### Tasks Each Quarter",
+      "",
+      "## Quarter Review",
+      "",
+      "### Completed Goals + Tasks",
+      "",
+      "### What got done towards the bigger goals?",
+      "",
+      "### What didn't get done that should have?",
+      "",
+      "### What's creating the biggest bottleneck?",
+      "",
+      "### What are the top 5 priorities for next quarter?"
+    ],
+    "description": "make quarter template"
+  },
+  "make day template": {
+    "prefix": "mkday",
+    "body": [
+      "## Done",
+      "",
+      "## Todo/Schedule",
+      "",
+      "## Notes",
+      "",
+      "## Learned"
+    ],
+    "description": "make day template"
+  },
+  "make reference section": {
+    "prefix": "mkref",
+    "body": [
+      "## References",
+      "- [1] []()"
+    ],
+    "description": "make reference section"
+  },
+  "make footnote": {
+    "prefix": "mkfoot",
+    "body": [
+      "<sup>[](#references)</sup>"
+    ],
+    "description": "make footnote"
+  }
 }
