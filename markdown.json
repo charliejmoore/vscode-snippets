@@ -102,5 +102,20 @@
       "<sup>[](#references)</sup>"
     ],
     "description": "make footnote"
+  },
+  "A markdown link": {
+    "prefix": "link",
+    "body": [
+        "[${1:Title}](${2:URL})"
+    ],
+    "description": "Link to a file or a web page."
+  },
+  "link with clipboard url": {
+    "prefix": "lu",
+    "body": "[$1]($CLIPBOARD)"
+  },
+  "link with clipboard text": {
+    "prefix": "lt",
+    "body": "[$CLIPBOARD]($1)"
   }
 }
