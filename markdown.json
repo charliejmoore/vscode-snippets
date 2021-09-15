@@ -1,5 +1,5 @@
 {
-  "Make week template": {
+  "Make new week planner template": {
     "prefix": "mkweek",
     "body": [
       "",
@@ -29,7 +29,7 @@
     ],
     "description": "Make week template"
   },
-  "Make new month template": {
+  "Make new month planner template": {
     "prefix": "mkmonth",
     "body": [
       "## Weeks",
@@ -49,7 +49,7 @@
     ],
     "description": "Make new month template"
   },
-  "make quarter template": {
+  "Make quarter planner template": {
     "prefix": "mkquarter",
     "body": [
       "",
@@ -75,7 +75,7 @@
     ],
     "description": "make quarter template"
   },
-  "make day template": {
+  "make new day planner template": {
     "prefix": "mkday",
     "body": [
       "## Done",
