@@ -1,19 +1,12 @@
 {
     "console.log()": {
-        "prefix": [
-            "console",
-            "log"
-        ],
-        "body": [
-            "console.log($0)"
-        ],
+        "prefix": ["console", "log"],
+        "body": "console.log($0)",
         "description": "console.log()"
     },
     "import": {
         "prefix": "i",
-        "body": [
-            "import $1 from '${2:$1}'"
-        ]
+        "body": "import $1 from '${2:$1}'"
     },
     "Template for functions to send and get observable subject": {
     "prefix": "mkobservable",
