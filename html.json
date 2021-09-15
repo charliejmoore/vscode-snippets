@@ -1,18 +1,12 @@
 {
     "container": {
         "prefix": "container",
-        "body": [
-            "<div class=\"container\">$0"
-        ],
+        "body": "<div class=\"container\">$0",
         "description": "container"
     },
     "ngClass": {
-        "prefix": [
-            "ngClass"
-        ],
-        "body": [
-            "[ngClass]=\"${1:expression} ? '${2:cssClass1}' : '${3:cssClass2}'\""
-        ],
+        "prefix": "ngClass",
+        "body": "[ngClass]=\"${1:expression} ? '${2:cssClass1}' : '${3:cssClass2}'\"",
         "description": "Angular ngClass"
     },
     "class": {
@@ -22,25 +16,17 @@
             "cl",
             "clas"
         ],
-        "body": [
-            "class=\"$0\""
-        ],
+        "body":"class=\"$0\"",
         "description": "make a class"
     },
     "ngfor": {
-        "prefix": [
-            "ngFor"
-        ],
-        "body": [
-            "*ngFor=\"let ${1:item} of ${2:list}\"${0}"
-        ],
+        "prefix": "ngFor",
+        "body": "*ngFor=\"let ${1:item} of ${2:list}\"${0}",
         "description": "Angular *ngFor"
     },
     "div": {
         "prefix": "div",
-        "body": [
-            "<div class=\"$1\">$2"
-        ],
+        "body": "<div class=\"$1\">$2",
         "description": "div"
     },
     "onClick": {
@@ -49,9 +35,7 @@
             "click",
             "(clic"
         ],
-        "body": [
-            "(click)=\"$0\""
-        ],
+        "body": "(click)=\"$0\"",
         "description": "add onClick"
     }
 }

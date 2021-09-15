@@ -17,46 +17,29 @@
         ],
         "description": "set host with height and width"
     },
-    "flex": {
-        "prefix": "flex",
-        "body": [
-            "display: flex;"
-        ],
-        "description": "flex"
-    },
     "background-color": {
         "prefix": "back",
-        "body": [
-            "background-color: $0;"
-        ],
+        "body": "background-color: $0;",
         "description": "background-color"
     },
     "margin-right": {
         "prefix": "mr",
-        "body": [
-            "margin-right: $0;"
-        ],
+        "body": "margin-right: $0;",
         "description": "margin-right"
     },
     "margin-left": {
         "prefix": "ml",
-        "body": [
-            "margin-left: $0;"
-        ],
+        "body": "margin-left: $0;",
         "description": "margin-left"
     },
     "margin-top": {
         "prefix": "mt",
-        "body": [
-            "margin-top: $0;"
-        ],
+        "body": "margin-top: $0;",
         "description": "margin-top"
     },
     "margin-bottom": {
         "prefix": "mb",
-        "body": [
-            "margin-bottom: $0;"
-        ],
+        "body": "margin-bottom: $0;",
         "description": "margin-bottom"
     },
     "default": {
@@ -71,25 +54,24 @@
         ],
         "description": "default set up for style.scss"
     },
+    "flex": {
+        "prefix": "flex",
+        "body": "display: flex;",
+        "description": "flex"
+    },
     "flex direction shorthand": {
         "prefix": "fd",
-        "body": [
-            "flex-direction: column;"
-        ],
+        "body": "flex-direction: column;",
         "description": "flex direction shorthand"
     },
     "flex justify content shorthand": {
         "prefix": "jc",
-        "body": [
-            "justify-content: $0;"
-        ],
+        "body": "justify-content: $0;",
         "description": "flex justify content shorthand"
     },
     "flex align items shorthand": {
         "prefix": "ai",
-        "body": [
-            "align-items: $0;"
-        ],
+        "body": "align-items: $0;",
         "description": "flex align items shorthand"
     }
 }
