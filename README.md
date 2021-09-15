@@ -6,10 +6,62 @@ I created many of these snippets with this helpful [snippet generator](https://s
 
 ## Contents
 
-- [TypeScript snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/typescript.json)
-- [Markdown snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/markdown.json)
-- [HTML snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/html.json)
-- [SCSS snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/scss.json)
+### [TypeScript snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/typescript.json)
+  - `console.log()`
+  - `import`
+  - Snippet to create a Subject, sendSubject function, + getSubject function
+
+**Testing**
+- `beforeEach`
+- `describe`
+- `expect`
+- `it`
+- `toBe`
+- `toEqual`
+- `toHaveBeenCalled`
+- `toHaveBeenCalledTimes`
+- `toHaveBeenCalledWith`
+- `createSpyObject`
+- `spyOn`
+
+### [Markdown snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/markdown.json)
+
+- Week Planner template
+- Month Planner template
+- Quarter Planner template
+- Day Planner template
+- Reference section
+- Footnote
+- Markdown link
+- Markdown link with the link title filled in with clipboard contents (e.g., `[pasted from clipboard]()`)
+- Markdown link with the link url filled in with clipboard contents (e.g., `[](www.from-my-clipboard.com)`)
+
+
+### [HTML snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/html.json)
+
+- container class `div`
+- `ngClass` ternary
+- `class`
+- `ngFor`
+- `div`
+- `(click)`
+
+### [SCSS snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/scss.json)
+- Height and width 100%
+- `:host` height and width to 100%
+- Set default values of html and body
+
+**Shorthand**
+
+- `flex`
+- `flex-direction`
+- `justify-content`
+- `align-items`
+- `background-color`
+- `margin-left`
+- `margin-right`
+- `margin-top`
+- `margin-bottom`
 
 ## Usage
 
