@@ -9,18 +9,73 @@
         "body": "import $1 from '${2:$1}'"
     },
     "Template for functions to send and get observable subject": {
-    "prefix": "mkobservable",
-    "body": [
-        "newSubject: Subject<any> = new Subject<any>();",
-        "",
-        "sendSubject(props): void {",
-        "  this.newSubject.next(props);",
-        "}",
-        "",
-        "public getSubject(): Observable<any> {",
-        "  return this.newSubject.asObservable();",
-        "}"
+        "prefix": "mkobservable",
+        "body": [
+            "newSubject: Subject<any> = new Subject<any>();",
+            "",
+            "sendSubject(props): void {",
+            "  this.newSubject.next(props);",
+            "}",
+            "",
+            "public getSubject(): Observable<any> {",
+            "  return this.newSubject.asObservable();",
+            "}"
         ],
         "description": "Template for functions to send and get observable subject"
+    },
+    "beforeEach": {
+        "prefix": "be",
+        "body": "beforeEach(() => {\n\t$0\n});",
+        "description": "beforeEach function is called once before each test in Jasmine + Jest testing"
+    },
+    "describe": {
+        "prefix": "desc",
+        "body": "describe('${1}', () => {\n\t$0\n});",
+        "description": "creates a describe block used in Jasmine + Jest testing to group tests"
+    },
+    "expect": {
+        "prefix": "exp",
+        "body": "expect($0)",
+        "description": "expect some actual value/condition in Jasmine + Jest testing"
+    },
+    "it": {
+        "prefix": "it",
+        "body": "it('${1:should }', () => {\n\t$0\n});",
+        "description": "creates an `it` block for a test in Jasmine + Jest testing"
+    },
+    "toBe": {
+        "prefix": ["tb", "tobe"],
+        "body": "expect($1).toBe($0);",
+        "description": "expects the first argument to be equal with the second one in Jasmine + Jest testing"
+    },
+    "toEqual": {
+        "prefix": ["te", "eq", "teq"],
+        "body": "expect($1).toEqual($0);",
+        "description": "expects the first argument to be equal with the second one in Jasmine + Jest testing"
+    },
+    "toHaveBeenCalled": {
+        "prefix": ["thbc", "toHaveBeenCalled"],
+        "body": "expect($1).toHaveBeenCalled();$0",
+        "description": "returns true if the spy was called"
+    },
+    "toHaveBeenCalledTimes": {
+        "prefix": ["thbct", "toHaveBeenCalledTimes"],
+        "body": "expect($1).toHaveBeenCalledTimes($0);",
+        "description": "returns true if the spy has been called given times"
+    },
+    "toHaveBeenCalledWith": {
+        "prefix": ["thbcw", "toHaveBeenCalledWith"],
+        "body": "expect($1).toHaveBeenCalledWith($0);",
+        "description": "returns true if the spy has been called with"
+    },
+    "createSpyObject": {
+        "prefix": ["cso", "spyo"],
+        "body": "jasmine.createSpyObj('${1:spy name}', ['${2:method name}'$3]);$0",
+        "description": "creates a mock with multiple spies in Jasmine testing"
+    },
+    "spyOn": {
+        "prefix": ["so", "spy"],
+        "body": "spyOn(${1:object}, '${2:method}')$3;$0",
+        "description": "creates a spy for the specified method in Jasmine testing"
     }
 }
