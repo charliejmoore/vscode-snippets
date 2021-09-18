@@ -1,0 +1,16 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 12
+    },
+    "plugins": [
+        "json"
+    ],
+    "extends": ["plugin:json/recommended-with-comments"],
+    "rules": {
+        "json/*": ["error", {"allowComments": true}]
+    }
+}
