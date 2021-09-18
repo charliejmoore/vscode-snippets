@@ -4,6 +4,8 @@
 
 I created many of these snippets with this helpful [snippet generator](https://snippet-generator.app/) tool.
 
+![](https://github.com/charliejmoore/vscode-snippets/actions/workflows/lint.yml/badge.svg)
+
 ## Contents
 
 ### [TypeScript snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/typescript.json)
