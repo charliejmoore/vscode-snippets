@@ -1,4 +1,4 @@
-# vscode-snippets
+# ✂️ VS Code Snippets
 
 [vscode-snippets](https://github.com/charliejmoore/vscode-snippets) is a collection of useful [snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets) for [VS Code](https://code.visualstudio.com/).
 
@@ -6,7 +6,7 @@ I created many of these snippets with this helpful [snippet generator](https://s
 
 ![](https://github.com/charliejmoore/vscode-snippets/actions/workflows/json-linter.yml/badge.svg)
 
-## Contents
+## ✨ Contents
 
 ### [TypeScript snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/typescript.json)
   - `console.log()`
@@ -65,7 +65,7 @@ I created many of these snippets with this helpful [snippet generator](https://s
 - `margin-top`
 - `margin-bottom`
 
-## Usage
+## 🚀 Usage
 
 To add any of these snippets to your own VS Code editor:
   1. Open the [Command Palette](https://code.visualstudio.com/docs/getstarted/userinterface#_command-palette) (`cmd` + `shift` + `p` on Mac, `ctrl` + `shift` + `p` on Windows).
@@ -75,7 +75,7 @@ To add any of these snippets to your own VS Code editor:
   5. Between the top level set of curly braces, (e.g., `{ }`), copy-paste the snippets you want to add. **
   6. Save your file and your new snippets will be available to use when you have a file of the corresponding language type open.
 
-## Troubleshooting
+## 🔧 Troubleshooting
 
 ##### Conflicting Settings
 
