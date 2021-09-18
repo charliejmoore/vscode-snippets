@@ -9,8 +9,8 @@
     "eslint": "^7.32.0"
   },
   "scripts": {
-    "lint": "eslint . --ext .json"
-  },
+    "lint": "eslint '**/*.json'"
+    },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/charliejmoore/vscode-snippets.git"
