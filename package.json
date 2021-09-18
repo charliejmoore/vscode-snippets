@@ -1,0 +1,24 @@
+{
+  "name": "vscode-snippets",
+  "version": "1.0.0",
+  "description": "[vscode-snippets](https://github.com/charliejmoore/vscode-snippets) is a collection of useful [snippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets) for [VS Code](https://code.visualstudio.com/).",
+  "main": "index.js",
+  "dependencies": { },
+  "devDependencies": {
+    "eslint-plugin-json": "^3.1.0",
+    "eslint": "^7.32.0"
+  },
+  "scripts": {
+    "lint": "eslint . --ext .json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charliejmoore/vscode-snippets.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charliejmoore/vscode-snippets/issues"
+  },
+  "homepage": "https://github.com/charliejmoore/vscode-snippets#readme"
+}
