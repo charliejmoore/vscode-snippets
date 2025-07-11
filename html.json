@@ -7,7 +7,7 @@
     "ngClass": {
         "prefix": "ngClass",
         "body": "[ngClass]=\"${1:expression} ? '${2:cssClass1}' : '${3:cssClass2}'\"",
-        "description": "Angular ngClass"
+        "description": "Angular 2+ ngClass"
     },
     "class": {
         "prefix": [
@@ -17,12 +17,12 @@
             "clas"
         ],
         "body":"class=\"$0\"",
-        "description": "make a class"
+        "description": "make a css/scss class"
     },
     "ngfor": {
         "prefix": "ngFor",
         "body": "*ngFor=\"let ${1:item} of ${2:list}\"${0}",
-        "description": "Angular *ngFor"
+        "description": "Angular 2+ *ngFor"
     },
     "div": {
         "prefix": "div",
@@ -36,6 +36,6 @@
             "(clic"
         ],
         "body": "(click)=\"$0\"",
-        "description": "add onClick"
+        "description": "add onClick (Angular 2+)"
     }
 }

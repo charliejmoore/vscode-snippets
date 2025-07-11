@@ -8,7 +8,7 @@
         "prefix": "i",
         "body": "import $1 from '${2:$1}'"
     },
-    "Template for functions to send and get observable subject": {
+    "Template for functions to send and get observable subject (Angular 2+)": {
         "prefix": "mkobservable",
         "body": [
             "newSubject: Subject<any> = new Subject<any>();",
@@ -21,7 +21,7 @@
             "  return this.newSubject.asObservable();",
             "}"
         ],
-        "description": "Template for functions to send and get observable subject"
+        "description": "Template for functions to send and get observable subject (Angular 2+)"
     },
     "beforeEach": {
         "prefix": "be",
