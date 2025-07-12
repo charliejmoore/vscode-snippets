@@ -13,7 +13,7 @@ I created many of these snippets with this helpful [snippet generator](https://s
   - `import`
   - Snippet to create a Subject, sendSubject function, + getSubject function
 
-**Testing**
+#### **Jest Testing**
 - `beforeEach`
 - `describe`
 - `expect`
@@ -42,11 +42,14 @@ I created many of these snippets with this helpful [snippet generator](https://s
 ### [HTML snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/html.json)
 
 - container class `div`
-- `ngClass` ternary
-- `class`
-- `ngFor`
 - `div`
+- `class`
+
+### **Angular 2+**
+- `ngClass` ternary
+- `ngFor`
 - `(click)`
+
 
 ### [SCSS snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/scss.json)
 - Height and width 100%
