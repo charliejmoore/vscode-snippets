@@ -8,6 +8,14 @@ I created many of these snippets with this helpful [snippet generator](https://s
 
 ## ✨ Contents
 
+### [React snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/typescriptreact.json)
+
+#### **Jest Testing**
+- `describe`
+- `test`
+- `beforeEach`
+- `expect`
+
 ### [TypeScript snippets](https://github.com/charliejmoore/vscode-snippets/blob/master/typescript.json)
   - `console.log()`
   - `import`

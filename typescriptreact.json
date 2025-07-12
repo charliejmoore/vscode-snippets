@@ -1,0 +1,30 @@
+{
+  "describe for jest tests": {
+    "prefix": "desc",
+    "body": [
+      "describe('$1', () => {",
+      "  //  ",
+      "});"
+    ],
+    "description": "describe for jest tests"
+  },
+  "test for jest tests": {
+    "prefix": "test",
+    "body": [
+      "test('$1', () => {",
+      "  //  ",
+      "});"
+    ],
+    "description": "test for jest tests"
+  },
+  "beforeEach": {
+    "prefix": "be",
+    "body": "beforeEach(() => {\n\t$0\n});",
+    "description": "beforeEach function is called once before each test in Jasmine + Jest testing"
+  },
+  "expect": {
+    "prefix": "exp",
+    "body": "expect($0)",
+    "description": "expect some actual value/condition in Jasmine + Jest testing"
+  }
+}
